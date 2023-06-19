@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Varian </title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+     <script src="https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+  </head>
+  <body>
+    <div id="card">
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="Ring Applicator.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1" environment-image="music_hall_01_1k.hdr">
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+       <div id="button">
+          <img src="4.png"  align="center" style="width:120px;  padding-left: 0px;padding-top: 0px;"></a>
+      </div>
+     
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer> 
+     <section class="attributiontwo">
+       <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
+      
+      <span>
+        
+        <a href="https://drive.google.com/file/d/1iWuJDWrkgtXsrohwHhvFq_UNmcRAn6wm/view?usp=share_link"><img src="Brochure.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
+        <a href="https://m.youtube.com/watch?v=MZRfzLQb92A&pp=ygUUYmlvbml4IGJyYWNoeXRoZXJhcHk%3D"><img src="Video.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+        <a href="https://www.varian.com/products/brachytherapy/afterloaders-and-applicators"><img src="web.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+        <a href="https://varian.widen.net/s/wwyx9dru1f/brachy_catalog_rad10536a_september2019"><img src="serch.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRaempuDSCvL9Adi-AAdqqdlyBzLo7s20bddYnmd1HOyapxg/viewform?usp=sf_link"><img src="form.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+            
+      </span>
+   
+    </section>
+       </div>
+   <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyB9Q0rEJwgpUForSuU-Deub86dEErxr6xw",
+    authDomain: "varian-aarhus-7468b.firebaseapp.com",
+    projectId: "varian-aarhus-7468b",
+    storageBucket: "varian-aarhus-7468b.appspot.com",
+    messagingSenderId: "1062779231273",
+    appId: "1:1062779231273:web:d5cdc6e2eb57d740dd1038",
+    measurementId: "G-X2PCG842TC"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+  </body>
+</html>
