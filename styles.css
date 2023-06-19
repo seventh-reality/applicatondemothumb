@@ -16,7 +16,6 @@ body {
   flex-direction: column;
   max-width: 281px;
   border-radius: 6px;
-  
   overflow: inherit;
   color: #000000;
 }
@@ -35,7 +34,6 @@ height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
   align-content: center;
   flex-wrap: wrap;
   align-items: flex-end;
